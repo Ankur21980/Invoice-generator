@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.invoices {
+
+    margin-top: 1rem;
+    margin-left: 10rem;
+    margin-bottom: 1rem;
+
+}
+
+.saved {
+    margin-top: 2rem;
+    width: 65%;    
+    border: solid 1px gray;
+    border-radius: 1rem;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.item1 {
+    margin-left: 2rem;
+}
+
+.item1 p {
+    padding-top: 0;
+    margin-top: 0s;
+}
+
+.item2 {
+    margin-top: .25rem;
+    margin-right: 2rem;
+}
+
+.item2 button {
+    border-radius: .75rem;
+    border: .5px solid #32FC9E;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: #32FC9E;
+    color: white;
+    font-weight: 500;
+}
+
+.item2 button:hover {
+    background-color: white;
+    color: #32FC9E;
+    cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.header {
+    margin: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+
+}
+
+.header h1 {
+    color: #32FC9E;
+    font-size: 4rem;
+}
+
+.generateF {
+    margin-top: 3rem;
+}
+
+.generateF input {
+    border-radius: .75rem;
+    border: .5px solid #32FC9E;
+    width: 50%;
+    height: 3rem;
+    font-size: 1.5rem;
+    color: gray;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.generateF button {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    height: 3rem;
+    border-radius: .75rem;
+    border: .5px solid #32FC9E;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #32FC9E;
+    color: white;
+    font-weight: 500;
+}
+ 
+.generateF button:hover {
+    background-color: white;
+    color: #32FC9E;
+    cursor: pointer;
+}

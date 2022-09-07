@@ -1,0 +1,74 @@
+.generate {
+    width: 65%;
+    /* justify-content: center; */
+    display: block;
+    text-align: center;
+    /* display: inline-block; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.export-head {
+    margin: 1rem;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #32FC9E;
+}
+
+.btn-group button{
+    margin-left: 1rem;
+}
+
+.transaction {
+
+    border-radius: .25rem;
+    border: 1px solid #0a5130;
+    padding: .5rem;
+    font-size: 1.25rem;
+    font-weight: 800;
+
+}
+
+.transaction:focus {
+    outline-color: #32FC9E;
+    background-color: #EFFCF6;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.list {
+    width: 100%;
+    border-radius: .5rem;
+    padding: .5rem;
+    border-color: #32FC9E;
+    color: gray;
+}
+
+.qty {
+    width: 50%;
+    border: solid;
+    border-radius: .5rem;
+    padding: .25rem;
+    border-color: #32FC9E;
+    color: gray;
+}
+
+.add {
+    margin: 1rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    background-color: #32FC9E;
+    border: none;
+    color: white;
+    font-weight: 800;
+}
+
+.add:hover {
+    background-color: white;
+    color: #32FC9E;
+    border: 1px solid #32FC9E;
+}

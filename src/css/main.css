@@ -1,0 +1,21 @@
+.btn-grp {
+
+    text-align: center;
+
+}
+
+.btn-grp button {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    padding: .5rem;
+    background-color: #EFFCF6;
+    border: 1px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #32FC9E;
+}
+
+.btn-grp button:hover {
+    color: white;
+    background-color: #32FC9E;
+}   
